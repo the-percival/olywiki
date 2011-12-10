@@ -1,0 +1,25 @@
+/*
+Copyright (c) 2003-2011, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.html or http://ckeditor.com/license
+*/
+
+@import url("/static/js/ckeditor/skins/sapling/reset.07ef87581b5c.css");
+@import url("/static/js/ckeditor/skins/sapling/mainui.42cde79a95ef.css");
+@import url("/static/js/ckeditor/skins/sapling/panel.8b68bc7b0a75.css");
+@import url("/static/js/ckeditor/skins/sapling/toolbar.7638db4979b8.css");
+@import url("/static/js/ckeditor/skins/sapling/menu.53f1fa55b2b6.css");
+@import url("/static/js/ckeditor/skins/sapling/richcombo.05aa79666101.css");
+@import url("/static/js/ckeditor/skins/sapling/elementspath.bc67bd085509.css");
+@import url("/static/js/ckeditor/skins/sapling/icons.2894bf7f1ac3.css");
+@import url("/static/js/ckeditor/skins/sapling/presets.c8deec889cb3.css");
+
+/* Restore the container visibility */
+html .cke_skin_sapling
+{
+	visibility: inherit;
+}
+
+html.cke_skin_sapling_container
+{
+	visibility: visible;
+}

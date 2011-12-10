@@ -1,0 +1,25 @@
+/*
+Copyright (c) 2003-2011, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.html or http://ckeditor.com/license
+*/
+
+@import url("/static/js/ckeditor/_source/skins/office2003/reset.46576ca21828.css");
+@import url("/static/js/ckeditor/_source/skins/office2003/mainui.80fe09e1e82e.css");
+@import url("/static/js/ckeditor/_source/skins/office2003/panel.b50f5a8c6c51.css");
+@import url("/static/js/ckeditor/_source/skins/office2003/toolbar.f52335d5248a.css");
+@import url("/static/js/ckeditor/_source/skins/office2003/menu.1dff107c1820.css");
+@import url("/static/js/ckeditor/_source/skins/office2003/richcombo.f2a83628002f.css");
+@import url("/static/js/ckeditor/_source/skins/office2003/elementspath.cc6c035f0306.css");
+@import url("/static/js/ckeditor/_source/skins/office2003/icons.4e3de0928ac5.css");
+@import url("/static/js/ckeditor/_source/skins/office2003/presets.f7b46c79e16a.css");
+
+/* Restore the container visibility */
+html .cke_skin_office2003
+{
+	visibility: inherit;
+}
+
+html.cke_skin_office2003_container
+{
+	visibility: visible;
+}
