@@ -10,7 +10,7 @@ CKEDITOR.plugins.add( 'domcleanup',
     {
         var allowed_tags = ['p','br','a','em','strong','u','img','h1','h2',
         'h3','h4','h5','hr','ul','ol','li','table','thead','tbody','tr','th',
-        'td','strike','sub','sup'];
+        'td','strike','sub','sup','div'];
         if(editor.config.domcleanupAllowedTags)
             allowed_tags = editor.config.domcleanupAllowedTags;
         editor.plugins['domcleanup'].allowedTags = allowed_tags;
@@ -139,8 +139,7 @@ CKEDITOR.plugins.add( 'domcleanup',
                                 return element;
                         }
                         var remap = {'i': 'em',
-                                     'b': 'strong',
-                                     'div': 'p'
+                                     'b': 'strong'
                                     };
                         if(remap[element.name])
                         {
