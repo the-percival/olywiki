@@ -2,7 +2,7 @@
 
 body {
     z-index: 0;
-    background: #fafafa url(../img/body-bg.png) top left repeat;
+    background: #fafafa url("/static/theme/img/body-bg.efe6c7da67cb.png") top left repeat;
 }
 
 /*
@@ -128,7 +128,7 @@ textarea, input, select {
 
 
 #header {
-    background: #E8ECEF url(../img/header-bg.png) top left repeat;
+    background: #E8ECEF url("/static/theme/img/header-bg.9c7ef7ed874d.png") top left repeat;
     border: 1px solid #E8ECEF;
     border-bottom: 1px solid #DAE1E5;
 }
@@ -149,7 +149,7 @@ textarea, input, select {
 /* Header is different on mapdata pages */
 .mapdata #header_bar {
     padding-left: 3.5em;
-    background: url(../img/map-icon.png) 0.95em 45% no-repeat;
+    background: url("/static/theme/img/map-icon.6f20ed26097d.png") 0.95em 45% no-repeat;
 }
 
 #object_title {
@@ -172,7 +172,7 @@ textarea, input, select {
 }
 
 #site_title {
-    background: #fafafa url(../img/body-bg.png) top left repeat;
+    background: #fafafa url("/static/theme/img/body-bg.efe6c7da67cb.png") top left repeat;
     min-height: 3.95em;
     padding-left: 1.5em;
     font-size: 130%;
@@ -244,7 +244,7 @@ textarea, input, select {
     width: 180px;
     font-size: 15px;
     line-height: 30px;
-    background: #ffffff url(../img/magnifying_glass.png) no-repeat 10px 10px;
+    background: #ffffff url("/static/theme/img/magnifying_glass.69dbcfa0f741.png") no-repeat 10px 10px;
     padding-left: 30px;
     margin-right: 0.5em;
 }
@@ -257,7 +257,7 @@ textarea, input, select {
 
 /* The entire-map div */
 #map {
-    background: #E8ECEF url(../img/header-bg.png) top left repeat;
+    background: #E8ECEF url("/static/theme/img/header-bg.9c7ef7ed874d.png") top left repeat;
     padding: 10px 10px 4px 10px;
     border-bottom: 1px solid #DAE1E5;
     border-left: 1px solid #DAE1E5;
@@ -288,7 +288,7 @@ textarea, input, select {
 
 }
 #map .info a {
-  background-image: url(../img/magnifying_glass.png);
+  background-image: url("/static/theme/img/magnifying_glass.69dbcfa0f741.png");
   background-repeat: no-repeat;
   background-position: 9px 50%;
   padding-left: 25px;
@@ -297,7 +297,7 @@ textarea, input, select {
 
 /* Overview map */
 .mapdata #results_pane {
-  background: #E8ECEF url(../img/header-bg.png) top left repeat;
+  background: #E8ECEF url("/static/theme/img/header-bg.9c7ef7ed874d.png") top left repeat;
   padding-top: 1em;
   padding-left: 2em;
   padding-right: 2em;
@@ -371,7 +371,7 @@ textarea, input, select {
 
 
 #footer {
-    background: #e1e1e1 url(../img/footer-bg.png) top left repeat;
+    background: #e1e1e1 url("/static/theme/img/footer-bg.d346b7351928.png") top left repeat;
     padding: 1.5em;
     clear: both;
     min-height: 30px;
@@ -509,7 +509,7 @@ input[type="submit"], input[type="button"], button, .button {
     padding: 6px 10px;
     border: none;
     /* TODO: explore using purely CSS gradients */
-    background: #e6e6e6 url(../img/gradient.png) repeat-x bottom left;
+    background: #e6e6e6 url("/static/theme/img/gradient.7f91d291668f.png") repeat-x bottom left;
     margin: 10px 5px 10px 0;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
     border: 1px solid #bfbfbf;
@@ -543,7 +543,7 @@ input.little {
 }
 
 .button.active {
-    background: #dcdcdc url(../img/gradient.png) repeat-x bottom left;
+    background: #dcdcdc url("/static/theme/img/gradient.7f91d291668f.png") repeat-x bottom left;
 }
 
 
@@ -693,11 +693,11 @@ div.templates li {
     margin-top: -0.35em;
 }
 .button.map .text {
-    background: url(../img/map-icon-small.png) 0px 66% no-repeat;
+    background: url("/static/theme/img/map-icon-small.ffa74865ca29.png") 0px 66% no-repeat;
     padding-left: 20px;
 }
 .button.redirect .text {
-    background: url(../img/arrow-turn-left.png) 2px 2px no-repeat;
+    background: url("/static/theme/img/arrow-turn-left.b08c7a6c66dc.png") 2px 2px no-repeat;
     padding-left: 20px;
 }
 
@@ -784,7 +784,7 @@ div.templates li {
     -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.5) inset;
 
     /* TODO: explore using purely CSS gradients */
-    background: #E8ECEF url(../img/gradient.png) repeat-x bottom left;
+    background: #E8ECEF url("/static/theme/img/gradient.7f91d291668f.png") repeat-x bottom left;
     border: 1px solid #bfbfbf;
 
     /* Slightly different padding*/
@@ -834,15 +834,15 @@ div.templates li {
 }
 
 #recentchanges .map .changelabel span {
-    background: url(../img/map-icon-small.png) 0px 66% no-repeat;
+    background: url("/static/theme/img/map-icon-small.ffa74865ca29.png") 0px 66% no-repeat;
     padding-left: 20px;
 }
 #recentchanges .file .changelabel span {
-    background: url(../img/document-block-light.png) 2px 66% no-repeat;
+    background: url("/static/theme/img/document-block-light.14a5da1863e2.png") 2px 66% no-repeat;
     padding-left: 20px;
 }
 #recentchanges .redirect .changelabel span {
-    background: url(../img/arrow-turn-left.png) 2px 2px no-repeat;
+    background: url("/static/theme/img/arrow-turn-left.b08c7a6c66dc.png") 2px 2px no-repeat;
     padding-left: 20px;
 }
 
@@ -888,7 +888,7 @@ div.templates li {
     width: 25em;
     font-size: 15px;
     line-height: 30px;
-    background: #ffffff url(../img/magnifying_glass.png) no-repeat 10px 10px;
+    background: #ffffff url("/static/theme/img/magnifying_glass.69dbcfa0f741.png") no-repeat 10px 10px;
     padding-left: 30px;
     margin-right: 0.5em;
     margin-bottom: 0.5em;
@@ -904,10 +904,10 @@ div.templates li {
 .pagination a, .pagination span { background: #fff; display: block; color: #444; text-decoration: none; float: left; padding: 2px 10px; border: 1px solid #bfbfbf; border-left: none; }
 .pagination a.disabled, .pagination span.disabled,
 .pagination a.disabled:hover, .pagination span.disabled:hover { color: #999; background: #fff; }
-.pagination a:hover { background: url("../img/gradient-light.png") repeat-x scroll left bottom #f6f6f6; }
+.pagination a:hover { background: url("/static/theme/img/gradient-light.da72bd534549.png") repeat-x scroll left bottom #f6f6f6; }
 .pagination .next { border-right: 1px solid #bfbfbf; }
 .pagination a:first-child { border-left: 1px solid #bfbfbf; }
-.pagination .current, .pagination .current:hover { color: #444; background: url("../img/gradient-light.png") repeat-x scroll left bottom #d9d9d9; }
+.pagination .current, .pagination .current:hover { color: #444; background: url("/static/theme/img/gradient-light.da72bd534549.png") repeat-x scroll left bottom #d9d9d9; }
 
 /*
 ====================================
@@ -1034,5 +1034,4 @@ table.meta-info {
   width: 424px;
   float: right;
   clear: right;
-  margin-left: 25px;
 }
